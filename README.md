@@ -114,7 +114,7 @@ Antes de executar o projeto, você deve configurar suas credenciais do Oracle no
 
 **1. Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/TempoLivreAPI.git
+git clone https://github.com/TEMPO-LIVRE-APP/.net.git
 cd TempoLivreAPI/TempoLivreAPI
 ```
 
