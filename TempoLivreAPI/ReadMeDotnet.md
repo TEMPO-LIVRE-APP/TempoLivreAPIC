@@ -98,7 +98,7 @@ O projeto segue uma arquitetura em camadas com:
 
 ### ⚠️ **IMPORTANTE: Configuração do Banco de Dados**
 
-Antes de executar o projeto, você deve configurar suas credenciais do Oracle no arquivo appsettings.json:
+Antes de executar o projeto, você deve configurar suas credenciais do Oracle no arquivo appsettings.json, copie essa linha e cole lá, alteransuas credenciais:
 
 ```json
 {
