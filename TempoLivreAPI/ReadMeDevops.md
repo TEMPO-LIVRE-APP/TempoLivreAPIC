@@ -116,7 +116,7 @@ docker compose up -d --build
 Acesse o banco por:
 
 ```bash
-Base URL: http://localhost:5000/index.html
+docker exec -it oracle-db bash
   
 sqlplus TEMPOLIVREAPI/TEMPOLIVREAPI12345@//localhost:1521/XE
 ```
@@ -132,10 +132,19 @@ select * from "nome da tabela";
 Pode acessar o Oracle SQL Developer ou pela extensão do oracle no VS Code
 
 Nome de usuário: TEMPOLIVREAPI
+
+
 Senha: TEMPOLIVREAPI12345
+
+
 SID: XE
+
+
 Nome do host: localhost
+
+
 Porta: 1521
+
 
 Dai para visualizar as tabelas
 
